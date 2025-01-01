@@ -25,6 +25,12 @@
     font-weight: 600;
     margin: $xl-6 0;
   }
+  @media (max-width: 700px) {
+    .hero-title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
   .sub-heading {
     display: flex;
     justify-content: center;
@@ -35,6 +41,12 @@
       font-size: $xll;
       line-height: 0;
       color: $green;
+    }
+  }
+  @media (max-width: 700px) {
+    .sub-heading {
+      flex-direction: column;
+      gap: 30px;
     }
   }
 }
