@@ -1,14 +1,14 @@
-import React from "react"
-import { Title } from "./common/Title"
-import { showcase } from "@/assets/data/dummydata"
-import { Card } from "./common/Card"
-import Link from "next/link"
-import { HiOutlineArrowRight } from "react-icons/hi"
+import React from "react";
+import { Title } from "./common/Title";
+import { showcase } from "@/assets/data/dummydata";
+import { Card } from "./common/Card";
+import Link from "next/link";
+import { HiOutlineArrowRight } from "react-icons/hi";
 
 const ShowCase = () => {
   return (
     <>
-      <section className='showcase'>
+      {/* <section className='showcase'>
         <div className='container'>
           <div className='heading-title'>
             <Title title='Selected cases' />
@@ -24,9 +24,9 @@ const ShowCase = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
-  )
-}
+  );
+};
 
-export default ShowCase
+export default ShowCase;

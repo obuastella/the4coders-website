@@ -1,7 +1,7 @@
-import { AiOutlineCalendar } from "react-icons/ai"
-import { TfiRulerPencil } from "react-icons/tfi"
-import { VscFileSubmodule } from "react-icons/vsc"
-import { BiUser } from "react-icons/bi"
+import { AiOutlineCalendar } from "react-icons/ai";
+import { TfiRulerPencil } from "react-icons/tfi";
+import { VscFileSubmodule } from "react-icons/vsc";
+import { BiUser } from "react-icons/bi";
 
 export const home = [
   {
@@ -20,33 +20,53 @@ export const home = [
     icon: <BiUser size={25} />,
     title: "Customer satisfaction is our top priority",
   },
-]
+];
 export const expertise = [
   {
     id: 1,
     title: "Web Design & Development",
     cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [
+      { text: "Web design" },
+      { text: "Web development" },
+      { text: "Custom icons & illustrations" },
+      { text: "Hosting" },
+      { text: "Website audit" },
+    ],
   },
   {
     id: 2,
     title: "Digital Marketing",
     cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [
+      { text: "Social media marketing" },
+      { text: "Marketing campaigns" },
+      { text: "Markting management" },
+      { text: "SEO" },
+    ],
   },
   {
     id: 3,
     title: "E-Commerce",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [
+      { text: "E-Commerce website design" },
+      { text: "WooCommerce" },
+      { text: "Content management" },
+      { text: "Hosting" },
+    ],
   },
   {
     id: 4,
     title: "Branding & Creative Services",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [
+      { text: "Visual identity" },
+      { text: "Branding for social media" },
+      { text: "Custom illustrations" },
+    ],
   },
-]
+];
 export const testimonial = [
   {
     id: 1,
@@ -76,45 +96,45 @@ export const testimonial = [
     post: "Seven Arts - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
-]
+];
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
+    title: "Evently",
     cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    catgeory: "Progressive web app",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
+    title: "Chiquitas Inventory",
+    catgeory: "Web application/mobile app",
     cover: "../images/s2.jpg",
   },
   {
     id: 3,
-    title: "Smart Living",
+    title: "Health Guardian",
     cover: "../images/s3.jpg",
-    catgeory: "WEBSITES",
+    catgeory: "Health application",
   },
   {
     id: 4,
-    title: "Light Painting",
+    title: "QR Pay ",
     cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    catgeory: "Finance	",
   },
   {
     id: 5,
-    title: "Ideabox",
+    title: "CryptonaryBit",
     cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    catgeory: "Trading/Crypto	",
   },
   {
     id: 5,
-    title: "VR Experience",
+    title: "Chat LCU",
     cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    catgeory: "AI/ML	",
   },
-]
+];
 export const brand = [
   {
     id: 1,
@@ -140,7 +160,7 @@ export const brand = [
     id: 6,
     cover: "../images/l6.svg",
   },
-]
+];
 export const blogdata = [
   {
     id: 1,
@@ -158,7 +178,8 @@ export const blogdata = [
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title:
+      "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
@@ -170,31 +191,31 @@ export const blogdata = [
     catgeory: "EVENTS",
     date: "OCTOBER 8, 2023",
   },
-]
+];
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
+    title: "Adeyemo Mubarak",
     cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    post: "Fullstack Engineer",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
+    title: "Obua Stella",
     cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    post: "Fullstack Engineer",
   },
   {
     id: 3,
-    title: "Tiffany White",
-    cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
+    title: "Omojola ZIon",
+    cover: "./images/t1.jpg",
+    post: "Software Engineer",
   },
   {
     id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
+    title: "Adeniji Adeoluwa",
+    cover: "../images/t6.jpg",
+    post: "UI/UX Designer",
   },
   {
     id: 5,
@@ -220,4 +241,4 @@ export const teamdata = [
     cover: "../images/t8.jpg",
     post: "",
   },
-]
+];
