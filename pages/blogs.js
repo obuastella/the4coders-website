@@ -4,10 +4,10 @@ import Head from "next/head";
 const Blogs = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Blog - The4Coders</title>
       </Head>
-      <Blog />
+      <Blog /> */}
     </>
   );
 };
