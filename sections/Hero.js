@@ -4,7 +4,7 @@ import Expertise from "@/components/Expertise";
 import ShowCase from "@/components/ShowCase";
 import Testimonial from "@/components/Testimonial";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
-import { BlogCard, Brand } from "@/components/router";
+// import { BlogCard, Brand } from "@/components/router";
 import React from "react";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <h1 className="text-2xl">The4Coders</h1>
-          <h1 className="hero-title">WE BUILD DIGITAL EXPERIENCES</h1>
+          <h1 className="header-text">WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className="sub-heading">
             <TitleSm title="WEBSITES" /> <span>.</span>
@@ -48,7 +48,7 @@ const Hero = () => {
       <Banner />
       <Testimonial />
       <ShowCase />
-      <Brand />
+      {/* <Brand /> */}
 
       {/* <div className="text-center">
         <Title title="Latest news & articles" />

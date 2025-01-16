@@ -1,4 +1,14 @@
 /*  Hero Section */
+.header-text {
+  font-size: 120px;
+  line-height: 115px;
+}
+@media (max-width: 800px) {
+  .header-text {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
 .hero {
   text-align: center;
   padding: $xl-6 0;
@@ -178,6 +188,7 @@
     .card-details {
       width: 55%;
       padding: $xll 0;
+      height: 250px;
     }
   }
 }

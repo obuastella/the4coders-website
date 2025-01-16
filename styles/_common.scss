@@ -71,6 +71,7 @@
   }
 }
 .card {
+  height: 900px;
   h1 {
     transition: 0.5s;
     &:hover {
@@ -79,7 +80,9 @@
     }
   }
   .card-img {
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
+    height: 40%;
+
     img {
       width: 100%;
       height: 100%;
@@ -93,7 +96,7 @@
     color: $indigo;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: $sm;
+    // margin-top: $sm;
     .link-icon {
       margin-left: $sm;
     }
@@ -109,7 +112,7 @@
     margin-top: $xl-6;
   }
   ul li {
-    margin-bottom: $xl-2;
+    // margin-bottom: $xl-2;
     opacity: 0.5;
   }
   .title-link {
