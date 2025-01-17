@@ -292,8 +292,9 @@ footer {
 
 //contact
 .contact {
+  width: 100%;
+  margin: auto;
   .left {
-    padding-right: 60px;
     ul {
       @include flex(center, space-between, none);
       margin-top: $xll;
@@ -303,9 +304,12 @@ footer {
       height: 50px;
       border: 1px solid rgba($white, 0.2);
       border-radius: 10px 0 10px 0;
-      @include flex(center, center, none);
+    }
+    .contact-deatils {
+      width: 100%;
     }
     .box {
+      margin: auto;
       margin-bottom: $xll;
       .icons {
         color: $green;
