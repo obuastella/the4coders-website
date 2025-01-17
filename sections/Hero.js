@@ -27,10 +27,9 @@ const Hero = () => {
           <div className="heading-title">
             <Title title="The last digital agency you ll ever need" />
             <p>
-              Suspendisse ut magna porttitor, sollicitudin ligula at, molestie
-              dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla
-              ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut
-              magna porttitor scelerisque.
+              We deliver innovative solutions that transform businesses,
+              combining creativity, technology, and strategy to meet your unique
+              needs. Let us help you achieve your digital goals seamlessly.
             </p>
           </div>
           <div className="hero-content grid-4">
